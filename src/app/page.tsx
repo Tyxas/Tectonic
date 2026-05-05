@@ -185,10 +185,7 @@ export default function Home() {
     {/*  Card 4  */}
     <div className="product-card">
       <div className="product-img-placeholder p4">
-        <svg viewBox="0 0 200 200" width="120" height="120" className="placeholder-icon" style={{ fontSize: "inherit" }}>
-          <polygon points="100,10 190,80 155,180 45,180 10,80" fill="none" stroke="#FF2D6B" strokeWidth="1.5"/>
-          <polygon points="100,35 167,93 139,165 61,165 33,93" fill="#FF2D6B" opacity="0.08"/>
-        </svg>
+        <img src="/images/product_4.png" alt="Product 4" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', inset: 0 }} />
         <div className="product-tag new">Nauja</div>
       </div>
       <div className="product-info">
@@ -204,12 +201,7 @@ export default function Home() {
     {/*  Card 5  */}
     <div className="product-card">
       <div className="product-img-placeholder p5">
-        <svg viewBox="0 0 200 200" width="120" height="120" className="placeholder-icon" style={{ fontSize: "inherit" }}>
-          <line x1="20" y1="20" x2="180" y2="180" stroke="#00E5FF" strokeWidth="1.5"/>
-          <line x1="180" y1="20" x2="20" y2="180" stroke="#00E5FF" strokeWidth="1.5"/>
-          <circle cx="100" cy="100" r="50" fill="none" stroke="#00E5FF" strokeWidth="0.5" opacity="0.5"/>
-          <circle cx="100" cy="100" r="25" fill="#00E5FF" opacity="0.12"/>
-        </svg>
+        <img src="/images/product_5.png" alt="Product 5" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', inset: 0 }} />
       </div>
       <div className="product-info">
         <div className="product-style">Varžybos / Competition</div>
@@ -224,11 +216,7 @@ export default function Home() {
     {/*  Card 6  */}
     <div className="product-card">
       <div className="product-img-placeholder p6">
-        <svg viewBox="0 0 200 200" width="120" height="120" className="placeholder-icon" style={{ fontSize: "inherit" }}>
-          <rect x="30" y="30" width="140" height="140" fill="none" stroke="#FF2D6B" strokeWidth="1.5"/>
-          <rect x="50" y="50" width="100" height="100" fill="none" stroke="#00E5FF" strokeWidth="0.5"/>
-          <rect x="70" y="70" width="60" height="60" fill="#FF2D6B" opacity="0.12"/>
-        </svg>
+        <img src="/images/product_6.png" alt="Product 6" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', inset: 0 }} />
         <div className="product-tag custom">Komanda</div>
       </div>
       <div className="product-info">
@@ -246,9 +234,9 @@ export default function Home() {
 {/*  CUSTOM ORDERS  */}
 <section className="custom-section" id="custom">
   <div className="custom-visual">
-    <div className="custom-grid-art">
-      <div></div><div></div><div></div><div></div>
-      <div></div><div></div><div></div><div></div>
+    <div className="custom-grid-art" style={{ opacity: 1, background: 'transparent' }}>
+      <img src="/images/custom.png" alt="Custom Tailoring" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', inset: 0 }} />
+    </div><div></div><div></div><div></div>
       <div></div><div></div><div></div><div></div>
       <div></div><div></div><div></div><div></div>
     </div>
