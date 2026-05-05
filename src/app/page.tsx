@@ -236,15 +236,12 @@ export default function Home() {
   <div className="custom-visual">
     <div className="custom-grid-art" style={{ opacity: 1, background: 'transparent' }}>
       <img src="/images/custom.png" alt="Custom Tailoring" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', inset: 0 }} />
-    </div><div></div><div></div><div></div>
-      <div></div><div></div><div></div><div></div>
-      <div></div><div></div><div></div><div></div>
     </div>
     <div className="custom-center">
-      <div className="custom-circle">
-        <div className="custom-circle-text">JŪSŲ<br />DIZAINAS<br />JŪSŲ<br />TAISYKLĖS</div>
+      <div className="custom-circle" style={{ borderColor: 'transparent', background: 'rgba(0,0,0,0.6)', borderRadius: '50%' }}>
+        <div className="custom-circle-text" style={{ color: '#fff' }}>JŪSŲ<br />DIZAINAS<br />JŪSŲ<br />TAISYKLĖS</div>
       </div>
-      <div style={{ fontFamily: "'Space Mono',monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "#555" }}>
+      <div style={{ fontFamily: "'Space Mono',monospace", fontSize: "10px", letterSpacing: "0.2em", textTransform: "uppercase", color: "#fff", background: 'rgba(0,0,0,0.6)', padding: '6px 12px', display: 'inline-block' }}>
         Individualus · Custom · Unikalus
       </div>
     </div>
